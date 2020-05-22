@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap learn</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!--navs-->
+        <div class="nav justify-content-end">
+            <div class="nav-item">
+                <a href="#" class="nav-link">Link1</a>
+            </div>
+            <div class="nav-item">
+                <a href="#" class="nav-link">Link2</a>
+            </div>
+            <div class="nav-item">
+                <a href="#" class="nav-link">Link3</a>
+            </div>
+        </div>
+        <h2>Image Gallery</h2>
+        <p>The .thumbnail class can be used to display an image gallery.</p>
+        <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p>
+        
+        <!--dropdown menu-->
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" type="button">
+                dropdown menu
+            </button>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Link1</a>
+                <a href="#" class="dropdown-item">Link1</a>
+                <a href="#" class="dropdown-item">Link1</a>
+            </div>
+        </div>
+        <!--card-->
+        <div class="card" style="width: 60%">
+            <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar1.png" alt="Card Image">
+            <div class="card-body">
+                <div class="card-title text-primary">John Doe</div>
+                <div class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, consectetur.</div>
+                <button class="btn btn-primary mt-3">see profile</button>
+            </div>
+        </div>
+
+        <div class="spinner-grow text-dark"></div>
+        <!--buttons-->
+        <button type="button" class="btn">Basic</button>
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-success disabled">Success</button>
+        <button class="btn btn-dark disabled">Primary</button>
+        <!--alert messages-->
+        <div class="alert alert-success">
+            <strong>Success!</strong> this is for success messages
+        </div>
+        <div class="alert alert-info">
+            <strong>Info!</strong> this is for success messages
+        </div>
+        <div class="alert alert-danger">
+            <strong>Danger!</strong> this is for success messages
+        </div>
+        <!--image gallery-->
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="img-thumbnail">
+                    <a href="https://www.w3schools.com/w3images/lights.jpg" target="_blank">
+                        <img src="https://www.w3schools.com/w3images/lights.jpg" class="img-fluid" alt="lights" style="width: 100%">
+                        <div class="caption">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img-thumbnail">
+                    <a href="https://www.w3schools.com/w3images/nature.jpg" target="_blank">
+                        <img src="https://www.w3schools.com/w3images/nature.jpg" alt="lights" style="width: 100%">
+                        <div class="caption">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img-thumbnail">
+                    <a href="https://www.w3schools.com/w3images/lights.jpg" target="_blank">
+                        <img src="https://www.w3schools.com/w3images/lights.jpg" alt="lights" style="width: 100%">
+                        <div class="caption">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+</html>
